@@ -1,5 +1,4 @@
 import java.util.Scanner;
-/* Elabore um algoritmo que leia o tamanho do lado de um quadrado e informe a área e o perímetro do quadrado. (Perímetro = 4*L; área = L^2). */
 public class exercicio_ex7{
     public static void main(String args[]){
         Scanner in = new Scanner (System.in);
