@@ -17,7 +17,7 @@ public class Calculadora {
         v2 = in.nextInt();
         
         System.out.println("Digite o simoblo da operação (*, /, +, -): ");
-        operacao = in.nextLine();
+        operacao = in.next();
         op = operacao.charAt(0);
 
         switch(op){
