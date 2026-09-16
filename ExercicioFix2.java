@@ -16,7 +16,7 @@ public class ExercicioFix2 {
             v = v + p;
         }
 
-        System.out.println(p1);
+        System.out.println(v);
 
         m = (double)v / 10;
         System.out.println("Média é " + m);
