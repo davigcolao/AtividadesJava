@@ -10,12 +10,18 @@ public class exercicios4_4 {
 
         int h, m, s;
         do{
-        System.out.println("Digite o tempo agora (h-m-s): ");
+        System.out.println("Digite a Hora de agora: ");
         h = in.nextInt();
+        } while(h > 23 || h < 0);
+        do{
+        System.out.println("Digite o minuto de agora: ");
         m = in.nextInt();
+        }while(m < 0 || m > 59);
+        do{
+        System.out.println("Digite segundo de agora: ");
         s = in.nextInt();
-        } while(h > 24 || m > 60 || s > 60 || h < 0 || m < 0 || s < 0);
-        
+        }while(s < 0 || s > 59);
+
         System.out.println("Se passaram " + tempo(h, m, s) + " segundos");
 
     }

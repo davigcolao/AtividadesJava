@@ -8,28 +8,27 @@ public class exercicios4_3 {
     public static void main(String args[]){
         Scanner in = new Scanner(System.in);
 
-        double lC, cC, lT, cT;
+        double l, c, aC, aT;
 
         System.out.println("Digite as dimensões da casa (largura e comprimento): ");
-        lC = in.nextDouble();
-        cC = in.nextDouble();
+        l = in.nextDouble();
+        c = in.nextDouble();
+        aC = area(c, l);
 
         System.out.println("Digite as dimensões do terreno");
-        lT = in.nextDouble();
-        cT = in.nextDouble();
+        l = in.nextDouble();
+        c = in.nextDouble();
+        aT = area(c, l);
 
-        System.out.println("A casa possui " + areaC(lC, cC) + " metros quadrados");
-        System.out.println("O terreno possui " + areaT(lT, cT) + " metros quadrados");
-        System.out.println("Espaço livre " + areaL(lC, lT, cC, cT) + " metros quadrados");
+        System.out.println("A casa possui " + aC + " metros quadrados");
+        System.out.println("O terreno possui " + aT + " metros quadrados");
+        System.out.println("Espaço livre " + areaL(aT, aC) + " metros quadrados");
         
     }
-    public static double areaC(double lC, double cC){
-        return lC * cC;
+    public static double area(double l, double c){
+        return l * c;
     }
-    public static double areaT(double lT, double cT){
-        return lT * cT;
-    }
-    public static double areaL(double lC, double lT, double cC, double cT){
-        return (lT * cT) - (lC * cC);
+    public static double areaL(double aT, double aC){
+        return aT - aC;
     }
 }
