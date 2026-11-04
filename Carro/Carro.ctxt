@@ -1,0 +1,6 @@
+#BlueJ class context
+#Wed Nov 04 09:27:27 BRT 2026
+comment0.target=Carro
+comment1.params=placa cor modelo marca km tanque
+comment1.target=Carro(java.lang.String, java.lang.String, java.lang.String, java.lang.String, double, double)
+numComments=2
