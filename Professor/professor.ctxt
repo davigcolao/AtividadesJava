@@ -1,0 +1,10 @@
+#BlueJ class context
+#Wed Nov 04 08:25:29 BRT 2026
+comment0.target=professor
+comment1.params=nome matricula horas vHora
+comment1.target=professor(java.lang.String, int, int, double)
+comment2.target=java.lang.String getnome()
+comment3.target=int getMatricula()
+comment4.target=int getHoras()
+comment5.target=double vHora()
+numComments=6

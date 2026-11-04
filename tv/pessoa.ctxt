@@ -1,0 +1,20 @@
+#BlueJ class context
+#Fri Oct 30 09:28:05 BRT 2026
+comment0.target=pessoa
+comment1.params=n i t e
+comment1.target=pessoa(java.lang.String, int, java.lang.String, java.lang.String)
+comment10.params=e
+comment10.target=void setEmail(java.lang.String)
+comment11.target=java.lang.String toString()
+comment2.target=pessoa()
+comment3.target=java.lang.String getNome()
+comment4.params=n
+comment4.target=void setNome(java.lang.String)
+comment5.target=int getIdade()
+comment6.params=i
+comment6.target=void setIdade(int)
+comment7.target=java.lang.String getTelefone()
+comment8.params=t
+comment8.target=void setTelefone(java.lang.String)
+comment9.target=java.lang.String getEmail()
+numComments=12

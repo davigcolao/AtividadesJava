@@ -1,0 +1,18 @@
+#BlueJ class context
+#Wed Oct 28 09:16:38 BRT 2026
+comment0.target=tv
+comment1.params=m p v a c ca vol
+comment1.target=tv(java.lang.String, int, double, int, java.lang.String, int, int)
+comment10.target=double ajustaPreco()
+comment2.params=novaCor
+comment2.target=void trocaCor(java.lang.String)
+comment3.target=java.lang.String mostraCor()
+comment4.target=void aumentaCanal()
+comment5.target=void diminuiCanal()
+comment6.params=novoVolume
+comment6.target=void trocaVolume(int)
+comment7.params=novoCanal
+comment7.target=void trocaCanal(int)
+comment8.target=void aumentaVolume()
+comment9.target=void diminuiVolume()
+numComments=11
