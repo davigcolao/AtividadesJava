@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Banco
+comment1.params=nome\ cnpj\ tamanho
+comment1.target=Banco(java.lang.String,\ java.lang.String,\ int)
+comment2.params=a
+comment2.target=boolean\ adicionaAgencia(Agencia)
+comment3.params=numero
+comment3.target=boolean\ buscaAgenciaPorNumero(int)
+comment4.params=nome
+comment4.target=Agencia\ buscaAgenciaPorNome(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

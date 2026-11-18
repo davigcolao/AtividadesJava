@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Agencia
+comment0.text=\r\n\ Escreva\ uma\ descri\u00E7\u00E3o\ da\ classe\ Agencia\ aqui.\r\n\ \r\n\ @author\ (seu\ nome)\ \r\n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\r\n
+comment1.params=nome\ numero\ quantidade
+comment1.target=Agencia(java.lang.String,\ int,\ int)
+comment1.text=\r\n\ Construtor\ para\ objetos\ da\ classe\ Agencia\r\n
+comment10.params=numeroOrigem\ numeroDestino\ valor
+comment10.target=boolean\ transfereValorContas(int,\ int,\ double)
+comment11.params=
+comment11.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=int\ getNumero()
+comment3.params=
+comment3.target=java.lang.String\ getNome()
+comment4.params=c
+comment4.target=void\ incluiConta(Conta)
+comment5.params=numero
+comment5.target=Conta\ consultaConta(int)
+comment6.params=
+comment6.target=Conta\ consultaContaMaiorSaldo()
+comment7.params=
+comment7.target=double\ calculaSaldoMedio()
+comment8.params=
+comment8.target=int\ mostraContasNegativas()
+comment9.params=numero\ valor
+comment9.target=boolean\ depositaValorConta(int,\ double)
+numComments=12
